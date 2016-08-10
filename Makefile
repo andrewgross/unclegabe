@@ -1,5 +1,5 @@
 PACKAGE=unclegabe
-CUSTOM_PIP_INDEX=
+CUSTOM_PIP_INDEX=pypi
 TESTS_VERBOSITY=2
 # </variables>
 
