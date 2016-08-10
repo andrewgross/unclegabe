@@ -45,7 +45,7 @@ if __name__ == '__main__':
         name="unclegabe",
         version='0.0.1',
         description="Runner to replicate Unclebob functionality for Django 1.8+",
-        long_description=local_file('README.md'),
+        long_description=local_file('README.rst'),
         author='Andrew Gross',
         author_email='andrew.w.gross@gmail.com',
         url='https://github.com/andrewgross/unclegabe',
