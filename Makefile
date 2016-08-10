@@ -40,8 +40,8 @@ run_test:
 			echo "======================================="; \
 			echo "* Running \033[0;32m$(suite)\033[0m test suite *"; \
 			echo "======================================="; \
-			@coverage run --append ./manage.py test --functional $(filter-out $@,$(MAKECMDGOALS)) --verbosity=2;
-			@coverage report --show-missing\
+			coverage run --append ./manage.py test --functional $(filter-out $@,$(MAKECMDGOALS)) --verbosity=2; \
+			coverage report --show-missing; \
 		fi \
 	fi
 
